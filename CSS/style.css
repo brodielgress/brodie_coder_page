@@ -2,6 +2,7 @@ main {
     display: grid  inline-grid;
 }
 
+<<<<<<< HEAD
 nav {
     background-color: teal;
     padding: 10px;
@@ -9,4 +10,8 @@ nav {
     height: 25vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: auto;
+=======
+.nav {
+    background-color: beige;
+>>>>>>> 8da3c46af547957f699d1bb1d6403cd5bbacb7e8
 }
