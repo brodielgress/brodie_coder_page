@@ -1,3 +1,12 @@
-.main {
+main {
     display: grid  inline-grid;
+}
+
+nav {
+    background-color: teal;
+    padding: 10px;
+    width: 25vw;
+    height: 25vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
 }
