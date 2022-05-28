@@ -1,12 +1,21 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 main {
-    display: grid  inline-grid;
+    display: flex;
+    flex-direction: row;
 }
 
 nav {
     background-color: teal;
     padding: 10px;
-    width: 25vw;
-    height: 25vh;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: auto;
+    width: 15vw;
+    height: 100vh;
 }
