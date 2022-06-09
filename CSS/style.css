@@ -1,11 +1,16 @@
-html {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    scroll-behavior: smooth;
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
-header {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+a:visited {
+    color: gainsboro;
+    text-decoration: none;
+}
 
+a.visited {
+    color: white;
 }
 
 body {
@@ -13,10 +18,22 @@ body {
     flex-direction: column;
 }
 
+header {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(195, 226, 226);
+}
+
 main {
     display: flex;
     flex-direction: row;
-    background-color: rgb(195, 226, 226);
 }
 
 nav {
