@@ -1,3 +1,3 @@
-function addNewPic() {
+function game() {
     
 }
