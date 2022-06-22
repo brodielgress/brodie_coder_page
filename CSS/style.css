@@ -33,7 +33,7 @@ html {
 
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 nav {
@@ -43,4 +43,34 @@ nav {
     height: 100vh;
     color: white;
     border-radius: 5px;
+}
+
+/* tablet media query */
+
+@media 
+only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* desktop media query */
+
+@media
+only screen and (min-width: 992px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
 }
