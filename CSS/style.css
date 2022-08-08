@@ -41,7 +41,7 @@ html {
 
 img {
     border-radius: 50%;
-    max-width: 15vw;
+    max-width: 25vw;
     padding: 1vw;
     position: absolute;
     top: 3vh;
@@ -54,7 +54,7 @@ main {
     flex-direction: column;
 }
 
-nav {
+.navbar {
     background-color: teal;
     padding: 20px;
     min-height: 15vh;
